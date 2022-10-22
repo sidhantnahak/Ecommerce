@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+  }
+.body_container{
+    flex: 1;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 10px;
+    border-top-left-radius: 2%; 
+    border: 1px solid black;
+  }
+
+  @media screen and (max-width: 600px) {
+       
+        .body_container{
+          flex: none;
+        }
+    }
